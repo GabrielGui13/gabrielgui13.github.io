@@ -83,7 +83,7 @@ export const LinkText = styled.a`
     font-style: normal;
     font-weight: 500;
     color: ${props => props.theme.colors.text};
-    width: 100px;
+    width: 130px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -126,7 +126,7 @@ export const LinkTextCV = styled.a`
     font-style: normal;
     font-weight: 500;
     color: ${props => props.theme.colors.text};
-    width: 100px;
+    width: 130px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
