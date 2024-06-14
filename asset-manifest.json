@@ -1,24 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.40f7c2eb.css",
-    "main.js": "/static/js/main.e8ceca14.js",
-    "static/media/flix.png": "/static/media/flix.18554340e38e38c07d72.png",
-    "static/media/pokedex.png": "/static/media/pokedex.9eea74207f6466a97283.png",
-    "static/media/photo.png": "/static/media/photo.efd043a80f98ee538902.png",
-    "static/media/orientador.png": "/static/media/orientador.4e36ba62b134c026282a.png",
+    "main.js": "/static/js/main.734db966.js",
     "static/media/professor.png": "/static/media/professor.616f2809a0cfb8d2f6d7.png",
     "static/media/hi.png": "/static/media/hi.51c1f59f3fb2671e3f72.png",
     "static/media/contact.png": "/static/media/contact.edc478cd9a1625a23726.png",
+    "static/media/photo.jpg": "/static/media/photo.9e1746eeaf9d3e31d6a8.jpg",
     "static/media/space-grotesk-all-400-normal.woff": "/static/media/space-grotesk-all-400-normal.625410290983f0e0895a.woff",
     "static/media/space-grotesk-latin-400-normal.woff2": "/static/media/space-grotesk-latin-400-normal.0a4ba2bd1f7894e1cc0b.woff2",
     "static/media/space-grotesk-latin-ext-400-normal.woff2": "/static/media/space-grotesk-latin-ext-400-normal.05e3af65b5da2af347ad.woff2",
     "static/media/space-grotesk-vietnamese-400-normal.woff2": "/static/media/space-grotesk-vietnamese-400-normal.799f8d2e84c3f8dd8ca1.woff2",
     "index.html": "/index.html",
     "main.40f7c2eb.css.map": "/static/css/main.40f7c2eb.css.map",
-    "main.e8ceca14.js.map": "/static/js/main.e8ceca14.js.map"
+    "main.734db966.js.map": "/static/js/main.734db966.js.map"
   },
   "entrypoints": [
     "static/css/main.40f7c2eb.css",
-    "static/js/main.e8ceca14.js"
+    "static/js/main.734db966.js"
   ]
 }
