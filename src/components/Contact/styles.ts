@@ -51,8 +51,8 @@ export const BoxContact = styled.a`
     transition: all 0.3s ease-in-out;
 
     &:hover, :focus{
-        background-color: #37D89220;
-        border: 1px solid #37D892;
+        background-color: #8A006720;
+        border: 1px solid ${props => props.theme.colors.primary};
     }
 `;
 
@@ -92,19 +92,20 @@ export const LinkText = styled.a`
 export const BoxCV = styled.a`
     display: flex;
     flex-direction: row;
-    border: 1px solid #37D892;
+    border: 1px solid ${props => props.theme.colors.primary};
     align-items: center;
-    background: #37D892;
+    background: ${props => props.theme.colors.primary};
     border-radius: 5px;
     padding: 15px 10px 15px 10px;
     width: 200px;
     justify-content: space-around;
-    border: 1px solid #37D892;
+    border: 1px solid ${props => props.theme.colors.primary};
     transition: all 0.3s ease-in-out;
 
     &:hover, :focus{
-        background-color: #37D89220;
-        border: 1px solid #37D892;
+        background-color: ${props => props.theme.colors.primary}20;
+        border: 1px solid ${props => props.theme.colors.primary};
+        color: black;
     }
 `;
 
@@ -124,8 +125,8 @@ export const TitleContactCV = styled.a`
 export const LinkTextCV = styled.a`
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    color: ${props => props.theme.colors.text};
+    font-weight: 700;
+    color: white;
     width: 130px;
     white-space: nowrap;
     overflow: hidden;
@@ -149,8 +150,8 @@ export const SocialMedia = styled.a`
     transition: all 0.3s ease-in-out;
 
     &:hover, :focus{
-        background-color: #37D89220;
-        border: 1px solid #37D892;
+        background-color: ${props => props.theme.colors.primary}20;
+        border: 1px solid ${props => props.theme.colors.primary};
     }
 `;
 

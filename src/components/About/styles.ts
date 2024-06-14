@@ -66,8 +66,8 @@ export const ContainerButtons = styled.div`
 
 export const ContactButton = styled.a`
     display: flex;
-    background: #37D892;
-    border: 1px solid #37D892;
+    background: ${props => props.theme.colors.primary};
+    border: 1px solid ${props => props.theme.colors.primary};
     padding: 20px 40px;
     justify-content: center;
     align-items: center;
@@ -76,12 +76,12 @@ export const ContactButton = styled.a`
     transition: all 0.3s ease-in-out;
 
     &:hover, :focus{
-        background-color: #37D89220;
-        border: 1px solid #37D892;
+        background-color: ${props => props.theme.colors.primary}20;
+        border: 1px solid ${props => props.theme.colors.primary};
     }
 
     &:hover span, :focus span{
-        color: #37D892;
+        color: ${props => props.theme.colors.primary};
     }
 `;
 

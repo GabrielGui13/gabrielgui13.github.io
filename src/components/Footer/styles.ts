@@ -11,7 +11,7 @@ export const ContainerFooter = styled.div`
 export const Text = styled.span`
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 20px;
     color: ${props => props.theme.colors.text};
 `;

@@ -66,7 +66,7 @@ export const TextNavs = styled.a`
 
     &::after{
         content: "";
-        background-color: #37D892;
+        background-color: ${props => props.theme.colors.primary};
         height: 3px;
         width: 0%;
         display: block;
@@ -75,7 +75,7 @@ export const TextNavs = styled.a`
 
     &:hover::after{
         content: "";
-        background-color: #37D892;
+        background-color: ${props => props.theme.colors.primary};
         height: 3px;
         width: 70%;
         display: block;
