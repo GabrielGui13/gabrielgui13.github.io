@@ -4,7 +4,7 @@ import { ThemeContext } from 'styled-components';
 import { Link } from 'react-router-dom';
 import { ContainerAbout, SubtitleContainer, SubTitle, ContainerTech, BoxTech, TextTech } from './styles';
 
-import technologiesData from '../../technologies';
+import technologiesData from '../../data/technologies';
 
 import photo from '../../assets/photo.png';
 

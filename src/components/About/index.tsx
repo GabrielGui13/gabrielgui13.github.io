@@ -4,7 +4,7 @@ import { ThemeContext } from 'styled-components';
 import { Link } from 'react-router-dom';
 import { ContainerAbout, Image, SubContainerAbout, SubTitle, Description, ContainerButtons, ContactButton, TextButton } from './styles';
 
-import photo from '../../assets/photo.png';
+import photo from '../../assets/photo.jpg';
 
 import { FiArrowRight } from "react-icons/fi";
 interface Props {
@@ -16,7 +16,7 @@ const About: React.FC<Props> = ({ toggleTheme }) => {
 
     return (
         <ContainerAbout id="sobre">
-            <Image src={photo} alt="Gabriel Barbosa" />
+            <Image src={photo} alt="Gabriel Viana" />
 
             <SubContainerAbout>
                 <SubTitle>
@@ -24,13 +24,14 @@ const About: React.FC<Props> = ({ toggleTheme }) => {
                 </SubTitle>
 
                 <Description>
-                    Comecei minha jornada na programação em 2019, quando ingressei em uma escola técnica de informatíca, de lá pra cá descobri sou um apaixonado por tecnologia e por desenvolvimento pessoal.
+                    Como um desenvolvedor Full Stack, sou apaixonado por tecnologia e sempre motivado a criar soluções inovadoras que desafiem meus conhecimentos e habilidades. Busco aprimorar constantemente meu conhecimento e desenvolvimento profissional para oferecer soluções de alta qualidade aos meus clientes.
                 </Description>
                 <Description>
-                    Atualmente estou estudando linguagens/frameworks como: Javascript, TypeScript, React, React Native, NodeJS entre outras tecnologias que uso para criar aplicações web/mobile de alto nível e valor.
+                    Mantenho-me atualizado com as tecnologias emergentes e tendências do setor para fornecer soluções inovadoras e eficientes. Assim estou sempre em busca de desafios e oportunidades para expandir meus conhecimentos e habilidades.
                 </Description>
                 <Description>
-                    Meu foco é aprender novas coisas e aprimorar ainda mais as habilidades que possuo, gosto sempre de estar em constante aprendizado e evoluindo dia após dia, e agregando muito valor.</Description>
+                    Meu objetivo é fornecer soluções de tecnologia de alta qualidade e atender às necessidades específicas de cada projeto em que trabalho. 
+                </Description>
                 <ContainerButtons>
                     <ContactButton href="#contato">
                         <TextButton>

@@ -79,10 +79,9 @@ export const TitleContact = styled.a`
 `;
 
 export const LinkText = styled.a`
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 10px;
     color: ${props => props.theme.colors.text};
     width: 100px;
     white-space: nowrap;
@@ -110,7 +109,7 @@ export const BoxCV = styled.a`
 `;
 
 export const TitleContactCV = styled.a`
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
@@ -123,10 +122,9 @@ export const TitleContactCV = styled.a`
 `;
 
 export const LinkTextCV = styled.a`
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 10px;
     color: ${props => props.theme.colors.text};
     width: 100px;
     white-space: nowrap;

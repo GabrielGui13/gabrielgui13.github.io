@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import Switch from 'react-switch';
 import { ThemeContext } from 'styled-components';
-import ProjectsData from '../../projectsdata';
+import ProjectsData from '../../data/projectsdata';
 
 import {
     ContainerProjects,

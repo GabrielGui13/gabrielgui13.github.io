@@ -60,6 +60,7 @@ export const Description = styled.span`
 export const ContainerButtons = styled.div`
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
     gap: 10px;
 `;
 

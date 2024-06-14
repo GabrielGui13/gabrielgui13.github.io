@@ -22,7 +22,7 @@ const Presentation: React.FC<Props> = ({ toggleTheme }) => {
         <ContainerPresentation>
             <ContainerMe>
                 <TextName>
-                    Gabriel Barbosa
+                    Gabriel Viana
                 </TextName>
                 <SubText>
                     <Typewriter
@@ -31,8 +31,8 @@ const Presentation: React.FC<Props> = ({ toggleTheme }) => {
                             loop: true,
                             delay: 30,
                             strings: [
-                                "< Front End Developer />",
-                                "< Desenvolvedor Front End />"
+                                "< Full Stack Developer />",
+                                "< Desenvolvedor Full Stack />"
                             ]
                         }}
                     />
