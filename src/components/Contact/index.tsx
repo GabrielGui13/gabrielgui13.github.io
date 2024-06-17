@@ -10,6 +10,8 @@ import { FiArrowDown } from "react-icons/fi";
 
 import contactImage from '../../assets/mock/contact.png';
 
+import { textData } from '../../data/TextData/pt';
+
 interface Props {
     toggleTheme(): void;
 }
@@ -18,11 +20,13 @@ const Contact: React.FC<Props> = ({ toggleTheme }) => {
     AOS.init();
     const { colors, title } = useContext(ThemeContext);
 
+    const { contact } = textData;
+
     return (
-        <ContainerContact id="contato">
+        <ContainerContact id="contact">
             <SubContainerTexts>
-                <TextTitle>Entrar em contato</TextTitle>
-                <SubTextTitle>Sinta-se à vontade para entrar em contato!</SubTextTitle>
+                <TextTitle>{contact.title}</TextTitle>
+                <SubTextTitle>{contact.subtitle}</SubTextTitle>
             </SubContainerTexts>
 
             <SubContainerContact>
@@ -33,7 +37,7 @@ const Contact: React.FC<Props> = ({ toggleTheme }) => {
                     </Icon>
 
                     <BoxTexts>
-                        <LinkText>Email</LinkText>
+                        <LinkText>{contact.buttons.email}</LinkText>
                     </BoxTexts>
                 </BoxContact>
 
@@ -43,7 +47,7 @@ const Contact: React.FC<Props> = ({ toggleTheme }) => {
                     </Icon>
 
                     <BoxTexts>
-                        <LinkText>Telefone</LinkText>
+                        <LinkText>{contact.buttons.phone}</LinkText>
                     </BoxTexts>
                 </BoxContact>
 
@@ -53,7 +57,7 @@ const Contact: React.FC<Props> = ({ toggleTheme }) => {
                     </Icon>
 
                     <BoxTexts>
-                        <LinkTextCV>Download CV</LinkTextCV>
+                        <LinkTextCV>{contact.buttons.cv}</LinkTextCV>
                     </BoxTexts>
                 </BoxCV>
 

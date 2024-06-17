@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { ContainerAbout, SubtitleContainer, SubTitle, ContainerTech, BoxTech, TextTech } from './styles';
 
 import technologiesData from '../../data/technologies';
+import { textData } from '../../data/TextData/pt';
 
 import photo from '../../assets/photo.png';
 
@@ -18,11 +19,13 @@ interface Props {
 const Technologies: React.FC<Props> = ({ toggleTheme }) => {
     const { colors, title } = useContext(ThemeContext);
 
+    const { technologies } = textData;
+
     return (
         <ContainerAbout>
             <SubtitleContainer>
                 <SubTitle>
-                    Linguagens e tecnologias
+                    {technologies.title}
                 </SubTitle>
             </SubtitleContainer>
             <ContainerTech>

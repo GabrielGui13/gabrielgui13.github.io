@@ -4,6 +4,8 @@ import { ThemeContext } from 'styled-components';
 import { Link } from 'react-router-dom';
 import { ContainerAbout, Image, SubContainerAbout, SubTitle, Description, ContainerButtons, ContactButton, TextButton } from './styles';
 
+import { textData } from '../../data/TextData/pt';
+
 import photo from '../../assets/photo.jpg';
 
 import { FiArrowRight } from "react-icons/fi";
@@ -13,29 +15,31 @@ interface Props {
 
 const About: React.FC<Props> = ({ toggleTheme }) => {
     const { colors, title } = useContext(ThemeContext);
+    
+    const { about } = textData;
 
     return (
-        <ContainerAbout id="sobre">
+        <ContainerAbout id="about">
             <Image src={photo} alt="Gabriel Viana" />
 
             <SubContainerAbout>
                 <SubTitle>
-                    Sobre mim
+                    {about.title}
                 </SubTitle>
 
                 <Description>
-                    Como um desenvolvedor Full Stack, sou apaixonado por tecnologia e sempre motivado a criar soluções inovadoras que desafiem meus conhecimentos e habilidades. Busco aprimorar constantemente meu conhecimento e desenvolvimento profissional para oferecer soluções de alta qualidade aos meus clientes.
+                    {about.description.t1}
                 </Description>
                 <Description>
-                    Mantenho-me atualizado com as tecnologias emergentes e tendências do setor para fornecer soluções inovadoras e eficientes. Assim estou sempre em busca de desafios e oportunidades para expandir meus conhecimentos e habilidades.
+                    {about.description.t2}
                 </Description>
                 <Description>
-                    Meu objetivo é fornecer soluções de tecnologia de alta qualidade e atender às necessidades específicas de cada projeto em que trabalho. 
+                    {about.description.t3}
                 </Description>
                 <ContainerButtons>
                     <ContactButton href="#contato">
                         <TextButton>
-                            Contato
+                            {about.navigation.contact}
                         </TextButton>
                     </ContactButton>
                 </ContainerButtons>

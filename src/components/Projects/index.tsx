@@ -20,6 +20,8 @@ import {
     Tools,
 } from './styles';
 
+import { textData } from '../../data/TextData/pt';
+
 import Media from 'react-media';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -35,6 +37,8 @@ const Projects: React.FC<Props> = ({ toggleTheme }) => {
     AOS.init();
     const [controller, setController] = useState(false);
 
+    const { projects } = textData;
+
     function seeMore() {
         setController(!controller);
     }
@@ -47,10 +51,10 @@ const Projects: React.FC<Props> = ({ toggleTheme }) => {
     }
 
     return (
-        <ContainerProjects id="projetos">
+        <ContainerProjects id="projects">
             <SubContainerProjects>
                 <SubTitle>
-                    Projetos pessoais
+                    {projects.title}
                 </SubTitle>
 
                 <ButtonSeeMore onClick={seeMore}>

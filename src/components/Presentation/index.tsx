@@ -5,6 +5,8 @@ import { FaMoon } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
 import { IoMdClose } from "react-icons/io";
 
+import { textData } from '../../data/TextData/pt';
+
 import Typewriter from 'typewriter-effect';
 
 import { ContainerPresentation, ContainerMe, TextName, SubText, Navigations, TextNavs, Imagem } from './styles';
@@ -18,11 +20,13 @@ interface Props {
 const Presentation: React.FC<Props> = ({ toggleTheme }) => {
     const { colors, title } = useContext(ThemeContext);
 
+    const { presentation } = textData;
+
     return (
         <ContainerPresentation>
             <ContainerMe>
                 <TextName>
-                    Gabriel Viana
+                    {presentation.name}
                 </TextName>
                 <SubText>
                     <Typewriter
@@ -30,10 +34,7 @@ const Presentation: React.FC<Props> = ({ toggleTheme }) => {
                             autoStart: true,
                             loop: true,
                             delay: 30,
-                            strings: [
-                                "< Full Stack Developer />",
-                                "< Desenvolvedor Full Stack />"
-                            ]
+                            strings: presentation.role
                         }}
                     />
                 </SubText>
@@ -41,9 +42,9 @@ const Presentation: React.FC<Props> = ({ toggleTheme }) => {
             </ContainerMe>
 
             <Navigations>
-                <TextNavs href="#sobre">Sobre</TextNavs>
-                <TextNavs href="#projetos">Projetos</TextNavs>
-                <TextNavs href="#contato">Contato</TextNavs>
+                <TextNavs href="#about">{presentation.navigation.about}</TextNavs>
+                <TextNavs href="#projects">{presentation.navigation.projects}</TextNavs>
+                <TextNavs href="#contact">{presentation.navigation.contact}</TextNavs>
                 <li className='switchCenter'>
                     <Switch
                         onChange={toggleTheme}
