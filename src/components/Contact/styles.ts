@@ -51,7 +51,7 @@ export const BoxContact = styled.a`
     transition: all 0.3s ease-in-out;
 
     &:hover, :focus{
-        background-color: #8A006720;
+        background-color: ${props => props.theme.colors.backgroundOpacity};
         border: 1px solid ${props => props.theme.colors.primary};
     }
 `;

@@ -12,6 +12,7 @@ import Typewriter from 'typewriter-effect';
 import { ContainerPresentation, ContainerMe, TextName, SubText, Navigations, TextNavs, Imagem } from './styles';
 
 import hiImage from '../../assets/mock/hi.png';
+import Logo from '../../assets/logo_gg_sf.png';
 
 interface Props {
     toggleTheme(): void;
@@ -62,7 +63,7 @@ const Presentation: React.FC<Props> = ({ toggleTheme }) => {
                 </li>
             </Navigations>
 
-            <Imagem src={hiImage}/>
+            <Imagem src={Logo}/>
         </ContainerPresentation >
     );
 }

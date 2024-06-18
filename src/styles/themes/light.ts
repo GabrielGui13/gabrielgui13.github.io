@@ -3,9 +3,12 @@ export default{
 
     colors:{
         primary: '#8A0067',
+        // primary: '#0053C0',
         secundary: '#636466',
 
         background: '#fff',
+        backgroundOpacity: '#8A006720',
+        // backgroundOpacity: '#0053C015',
         text: '#222222',
         buttonText: '#ccc',
 
