@@ -8,7 +8,7 @@ const ProjectsData = [
         "id": 1,
         "img": professor,
         "title": "README Github",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id augue sed arcu tincidunt vestibulum. Nam tristique vestibulum felis, sollicitudin tempus sem interdum porttitor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id augue sed arcu tincidunt vestibulum. Nam tristique vestibulum felis, sollicitudin tempus sem interdum porttitor.",
         "tool": "Markdown",
         "github": "https://github.com/GabrielGui13/GabrielGui13",
         "link": "https://github.com/GabrielGui13"
@@ -17,7 +17,7 @@ const ProjectsData = [
         "id": 2,
         "img": professor,
         "title": "AI Secure Forecast",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id augue sed arcu tincidunt vestibulum. Nam tristique vestibulum felis, sollicitudin tempus sem interdum porttitor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id augue sed arcu tincidunt vestibulum. Nam tristique vestibulum felis, sollicitudin tempus sem interdum porttitor.",
         "tool": "Angular · Spring · ML",
         "github": "https://github.com/GabrielGui13/GabrielGui13",
         "link": "https://github.com/GabrielGui13"
@@ -26,7 +26,7 @@ const ProjectsData = [
         "id": 3,
         "img": professor,
         "title": "Portfolio",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id augue sed arcu tincidunt vestibulum. Nam tristique vestibulum felis, sollicitudin tempus sem interdum porttitor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id augue sed arcu tincidunt vestibulum. Nam tristique vestibulum felis, sollicitudin tempus sem interdum porttitor.",
         "tool": "React · TypeScript",
         "github": "https://github.com/GabrielGui13/gabrielgui13.github.io",
         "link": "https://gabrielgui13.github.io/"
@@ -35,7 +35,7 @@ const ProjectsData = [
         "id": 4,
         "img": professor,
         "title": "Rev It!",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id augue sed arcu tincidunt vestibulum. Nam tristique vestibulum felis, sollicitudin tempus sem interdum porttitor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id augue sed arcu tincidunt vestibulum. Nam tristique vestibulum felis, sollicitudin tempus sem interdum porttitor.",
         "tool": "Flutter · ASP.NET",
         "github": "https://github.com/GabrielGui13/gabrielgui13.github.io",
         "link": "https://gabrielgui13.github.io/"
