@@ -37,7 +37,7 @@ const About: React.FC<Props> = ({ toggleTheme }) => {
                     {about.description.t3}
                 </Description>
                 <ContainerButtons>
-                    <ContactButton href="#contato">
+                    <ContactButton href="#contact">
                         <TextButton>
                             {about.navigation.contact}
                         </TextButton>
