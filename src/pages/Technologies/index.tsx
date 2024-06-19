@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom';
 import { ContainerAbout, SubtitleContainer, SubTitle, ContainerTech, BoxTech, TextTech } from './styles';
 
 import technologiesData from '../../data/technologies';
-import { textData } from '../../data/language/pt';
 
 import photo from '../../assets/photo.png';
 
 import { FiArrowRight } from "react-icons/fi";
 import { ImRadioChecked } from "react-icons/im";
+import { useLanguage } from '../../hooks/useLanguage';
 
 interface Props {
     toggleTheme(): void;
@@ -19,6 +19,7 @@ interface Props {
 const Technologies: React.FC<Props> = ({ toggleTheme }) => {
     const { colors, title } = useContext(ThemeContext);
 
+    const { textData } = useLanguage();
     const { technologies } = textData;
 
     return (

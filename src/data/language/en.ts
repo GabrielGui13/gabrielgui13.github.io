@@ -1,4 +1,6 @@
-export const textDataEN = {
+import { LanguageType } from "../../context/LanguageContext"
+
+export const textDataEN: LanguageType = {
 	language: 'en',
 	presentation: {
 		name: 'Gabriel Viana',

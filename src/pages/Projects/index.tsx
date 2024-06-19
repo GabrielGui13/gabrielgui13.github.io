@@ -20,13 +20,12 @@ import {
     Tools,
 } from './styles';
 
-import { textData } from '../../data/language/pt';
-
 import Media from 'react-media';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { FiExternalLink } from "react-icons/fi";
 import { AiFillGithub } from "react-icons/ai";
+import { useLanguage } from '../../hooks/useLanguage';
 
 interface Props {
     toggleTheme(): void;
@@ -37,6 +36,7 @@ const Projects: React.FC<Props> = ({ toggleTheme }) => {
     AOS.init();
     const [controller, setController] = useState(false);
 
+    const { textData } = useLanguage();
     const { projects } = textData;
 
     function seeMore() {

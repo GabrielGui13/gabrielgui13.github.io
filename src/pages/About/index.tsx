@@ -1,22 +1,30 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import Switch from 'react-switch';
 import { ThemeContext } from 'styled-components';
 import { Link } from 'react-router-dom';
 import { ContainerAbout, Image, SubContainerAbout, SubTitle, Description, ContainerButtons, ContactButton, TextButton } from './styles';
 
-import { textData } from '../../data/language/pt';
-
 import photo from '../../assets/photo.jpg';
 
 import { FiArrowRight } from "react-icons/fi";
+import { useLanguage } from '../../hooks/useLanguage';
+import { LanguageType } from '../../context/LanguageContext';
+
 interface Props {
     toggleTheme(): void;
 }
 
 const About: React.FC<Props> = ({ toggleTheme }) => {
     const { colors, title } = useContext(ThemeContext);
+
+    const { textData } = useLanguage();
+    let text: LanguageType = textData;
+
+    // useEffect(() => {
+    //     text = textData;
+    // }, [textData])
     
-    const { about } = textData;
+    const { about } = text;
 
     return (
         <ContainerAbout id="about">
