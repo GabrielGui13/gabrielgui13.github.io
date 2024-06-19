@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { ContainerAbout, SubtitleContainer, SubTitle, ContainerTech, BoxTech, TextTech } from './styles';
 
 import technologiesData from '../../data/technologies';
-import { textData } from '../../data/TextData/pt';
+import { textData } from '../../data/language/pt';
 
 import photo from '../../assets/photo.png';
 

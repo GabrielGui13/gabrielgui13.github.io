@@ -1,4 +1,5 @@
-export const textData = {
+export const textDataPT = {
+	language: 'pt',
 	presentation: {
 		name: 'Gabriel Viana',
 		role: ['< Desenvolvedor Full Stack />',  '< Desenvolvedor Front End />', '< Desenvolvedor Back End />'],
@@ -22,7 +23,7 @@ export const textData = {
 	},
 
 	technologies: {
-		title: 'Linguagens e tecnologias',
+		title: 'Habilidades e tecnologias',
 	},
 
 	projects: {

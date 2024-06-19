@@ -20,7 +20,7 @@ import {
     Tools,
 } from './styles';
 
-import { textData } from '../../data/TextData/pt';
+import { textData } from '../../data/language/pt';
 
 import Media from 'react-media';
 import AOS from 'aos';

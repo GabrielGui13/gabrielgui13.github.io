@@ -6,12 +6,12 @@ import light from './styles/themes/light';
 import dark from './styles/themes/dark';
 
 import GlobalStyle from './styles/global';
-import Presentation from './components/Presentation';
-import About from './components/About';
-import Technologies from './components/Technologies';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Presentation from './pages/Presentation';
+import About from './pages/About';
+import Technologies from './pages/Technologies';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
+import Footer from './pages/Footer';
 
 function App() {
   const [theme, setTheme] = usePersistedState<DefaultTheme>('theme', light);
