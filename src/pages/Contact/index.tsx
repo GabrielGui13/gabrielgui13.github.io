@@ -9,7 +9,7 @@ import { ContainerContact, SubContainerTexts, TextTitle, SubTextTitle, SubContai
 import { FiArrowDown } from "react-icons/fi";
 
 import contactImage from '../../assets/mock/contact.png';
-import Logo from '../../assets/logo_gg_sf.png';
+import Logo from '../../assets/logo/logo_gg_sf.png';
 import { useLanguage } from '../../hooks/useLanguage';
 
 interface Props {

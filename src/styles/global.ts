@@ -103,8 +103,4 @@ export default createGlobalStyle`
             display: none;
         }
     }
-
-    .switchCenter{
-        display: flex;
-    }
 `;

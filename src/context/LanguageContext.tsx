@@ -8,6 +8,7 @@ const languageList = ['pt', 'en']
 
 export type LanguageType = {
 	language: LanguageNameType,
+	theme: string,
 	presentation: {
 		name: string,
 		role: string[],

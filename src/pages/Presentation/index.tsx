@@ -10,7 +10,7 @@ import Typewriter from 'typewriter-effect';
 import { ContainerPresentation, ContainerMe, TextName, SubText, Navigations, TextNavs, Imagem } from './styles';
 
 import hiImage from '../../assets/mock/hi.png';
-import Logo from '../../assets/logo_gg_sf.png';
+import Logo from '../../assets/logo/logo_gg_sf.png';
 import { useLanguage } from '../../hooks/useLanguage';
 import { Header } from '../../components/Header';
 

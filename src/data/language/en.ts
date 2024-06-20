@@ -2,6 +2,7 @@ import { LanguageType } from "../../context/LanguageContext"
 
 export const textDataEN: LanguageType = {
 	language: 'en',
+	theme: 'Theme',
 	presentation: {
 		name: 'Gabriel Viana',
 		role: ['< Full Stack Developer />',  '< Front End Developer />', '< Back End Developer />'],
