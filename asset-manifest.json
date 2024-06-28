@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.40f7c2eb.css",
-    "main.js": "/static/js/main.7238c06f.js",
+    "main.js": "/static/js/main.17b87829.js",
     "static/media/professor.png": "/static/media/professor.616f2809a0cfb8d2f6d7.png",
     "static/media/photo.jpg": "/static/media/photo.9e1746eeaf9d3e31d6a8.jpg",
     "static/media/logo_gg_sf.png": "/static/media/logo_gg_sf.f8570eceff83473de0bf.png",
@@ -11,10 +11,10 @@
     "static/media/space-grotesk-vietnamese-400-normal.woff2": "/static/media/space-grotesk-vietnamese-400-normal.799f8d2e84c3f8dd8ca1.woff2",
     "index.html": "/index.html",
     "main.40f7c2eb.css.map": "/static/css/main.40f7c2eb.css.map",
-    "main.7238c06f.js.map": "/static/js/main.7238c06f.js.map"
+    "main.17b87829.js.map": "/static/js/main.17b87829.js.map"
   },
   "entrypoints": [
     "static/css/main.40f7c2eb.css",
-    "static/js/main.7238c06f.js"
+    "static/js/main.17b87829.js"
   ]
 }
