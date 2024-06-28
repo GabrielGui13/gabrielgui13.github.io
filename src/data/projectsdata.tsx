@@ -43,6 +43,15 @@ const ProjectsData = [
     {
         "id": 5,
         "img": professor,
+        "title": "Sistema de Cadastro Hydra",
+        "description": "Sistema de cadastro de clientes e produtos para o bootcamp Hiring Coders. Sistema de cadastro de clientes e produtos para o bootcamp Hiring Coders. CRUD local de elementos.",
+        "tool": "React · Styled Components · Sass",
+        "github": "https://github.com/GabrielGui13/Hiring-Coders/tree/master/produtos-clientes-hydra",
+        "link": "https://hydra-sistema-cadastro.netlify.app/"
+    },
+    {
+        "id": 6,
+        "img": professor,
         "title": "API GraphQL com NestJS",
         "description": "API GraphQL criada com NestJS. Uso de dados mockados para a criação de Queries e Mutations. Feito em Typescript.",
         "tool": "React · MaterialUI · Node",
@@ -50,13 +59,22 @@ const ProjectsData = [
         "link": "https://github.com/GabrielGui13/new_things/tree/master/nest-graphql-test"
     },
     {
-        "id": 6,
+        "id": 7,
         "img": professor,
         "title": "Portfólio Profissional",
         "description": "Criação de uma aplicação React com principais ferramentas. Gerenciamento de estado com ContextAPI. Styled components e MaterialUI para componentização.",
         "tool": "React · MaterialUI · GH Pages",
         "github": "https://github.com/GabrielGui13/gabrielgui13.github.io/tree/feat/portfolio-template",
         "link": "https://gabrielgui13.github.io"
+    },
+    {
+        "id": 8,
+        "img": professor,
+        "title": "Portal de Sugestões com Filtro Textual",
+        "description": "Sistema de sugestões em React com filtragem de conteúdo ofensivo. Criação de CRUD de mensagens local. Estilização com MaterialUI e SASS.",
+        "tool": "React · MaterialUI · SASS",
+        "github": "https://github.com/bitlab-ufrn/selecao-2023-GabrielGui13/tree/main",
+        "link": "https://selecao-2023-gabriel-gui13.vercel.app/"
     }
 ]
 
